@@ -72,6 +72,9 @@ const Footer = () => {
               className="md:hidden"
             />
           </div>
+           <div className=" flex mx-8 lg:hidden justify-center gap-5 text-center mb-6 md:mb-0"><p className="text-[14px] text-[#FEFEFE] md:text-[18px]">
+             Dune Study Metro , Prakruthi Building 1st Floor, Opp Nexa Showroom Bunts Hostel, Kadri Road Mangalore - 575003
+            </p></div>
           <div className="text-center md:text-right">
             <p className="text-[14px] text-[#FEFEFE] md:text-[18px]">
               For Free Counselling Contact
@@ -83,7 +86,13 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-
+  <div className="lg:flex hidden flex-col md:flex-row justify-between mx-6 pb-14 md:mx-24 ">
+          <div className="flex justify-center gap-5 md:justify-start mb-6 md:mb-0">
+            <p className="text-[14px] text-[#FEFEFE] md:text-[18px]">
+             Dune Study Metro , Prakruthi Building 1st Floor, Opp Nexa Showroom Bunts Hostel,<br /> Kadri Road Mangalore - 575003
+            </p>
+          </div>
+        </div>
         <div className="flex flex-col md:flex-row justify-between items-center mx-6 md:mx-24 pt-6 md:pt-9 pb-8 md:pb-14">
           <div className="flex justify-center md:justify-start gap-4 mb-4 md:mb-0">
             <Link
